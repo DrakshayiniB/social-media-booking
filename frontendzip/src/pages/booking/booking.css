@@ -1,0 +1,69 @@
+.booking-app {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(https://img.pikbest.com/ai/illus_our/20230427/2af4b6fbb6e59074cda54d245e6ed8e5.jpg!w700wp);
+    background-size: cover;
+    color: white;
+   
+   }
+  
+  .booking-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cinema-list, .movie-list, .seat-selection {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .cinema-item, .movie-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  
+  .booking-summary {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    /* background-color: #f0f0f0; */
+    border: 1px solid #ddd;
+  }
+  .booking-summary:hover{
+    background-color: #0e0c0c;
+  }
+  .booking-app h1{
+    text-align: center;
+    /* margin-top: -110px; */
+    font-size: 60px;
+    
+  }
+  .booking-summary h3 {
+    font-size: 1.7rem;
+    font-family:sans-serif;
+    font-style: italic;
+  }
+  .booking-summary p{
+   font-weight:500;
+ font-size: 19px;
+
+  }
+  button{
+    background-color: #151518;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+   font-weight: 500;
+    font-size: 15px;
+    color: #f0f0f0;
+
+  }

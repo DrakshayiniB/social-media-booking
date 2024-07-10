@@ -1,0 +1,29 @@
+.movie-list {
+    height: 400px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-list h2 {
+    margin-bottom: 10px;
+    font-style: italic;
+    font-family: fantasy ;
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+  
+  .movie-list__container {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+  
+  .movie-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .movie-item:hover {
+    background-color: #0d0c0c;
+  }

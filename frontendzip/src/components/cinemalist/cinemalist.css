@@ -1,0 +1,29 @@
+.cinema-list {
+    height: 400px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cinema-list h2 {
+    margin-bottom: 10px;
+    font-style: italic;
+    font-family: fantasy ;
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+  
+  .cinema-list__container {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+  
+  .cinema-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .cinema-item:hover {
+    background-color: #0e0e0e;
+  }
